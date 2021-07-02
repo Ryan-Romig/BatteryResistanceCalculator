@@ -1,0 +1,37 @@
+.container{
+    background-image: url('/src/DelphinFrame.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100vh;
+    width: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.delphin-screen-container{
+position: relative;
+
+}
+
+
+
+@media only screen and (max-width: 390px) {
+
+    .container{
+         background-image: none;
+    }
+} 
+
+@media only screen and (max-height: 40px) {
+
+    .container{
+        background-image: none;
+        align-items: flex-start;
+    }
+  
+}
+
+
+

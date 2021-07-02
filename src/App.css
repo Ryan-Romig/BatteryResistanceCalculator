@@ -1,0 +1,54 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+ }
+
+.App{
+    color: black;
+    height: 100vh;
+    width: auto;
+    overflow: hidden;
+    background-image: repeating-radial-gradient(rgba(19, 132, 224, 0.712), rgba(255, 255, 255, 0.062));
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    min-width: 250px;
+
+
+
+}
+
+.navbar{
+    display: flex;
+    justify-content: center;
+    height: 50px;
+}
+.contentContainer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0 auto;
+    text-align: center;
+
+
+}
+.logo2{
+    display: none;
+}
+@media only screen and (max-width: 390px) {
+
+    .logo1{
+        display: none;
+    }
+    .logo2{
+        display: flex;
+    }
+}
+    
+@media only screen and (max-height: 500px) {
+
+
+  
+}
