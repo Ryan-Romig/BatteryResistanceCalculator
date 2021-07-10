@@ -1,2 +1,6 @@
-react app containing different custom tools. this is for learning react in a useful way
+
 # BatteryResistanceCalculator
+
+netlify.batteryohms.app
+
+app for calculating internal resistance of single cell LiPo battery with a resistor load
