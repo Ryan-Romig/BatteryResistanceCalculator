@@ -1,0 +1,40 @@
+.mainContainer{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    margin-left: 4rem;
+}
+.navigation{
+    display: flex;
+    flex-direction: column;
+}
+.navigation button{
+    width: 120px;
+    margin: 5px;
+    height: 50px;
+}
+.contentContainer{
+    background-image: url('/src/DelphinFrame.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100vh;
+    width: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.imageContainer{
+    margin: 13%;
+}
+img{
+    max-width: 100%;
+}
+@media only screen and (max-height:700px){
+    /* .mainContainer{
+        flex-direction: column;
+    }
+    .navigation{
+        flex-direction: column;
+    } */
+}
