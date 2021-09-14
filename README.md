@@ -8,4 +8,4 @@ app for calculating internal resistance of single cell LiPo battery with a resis
 
 
 
---run npm ci to rebuild node dependancy
+--run npm ci or npm install to rebuild node dependancy
